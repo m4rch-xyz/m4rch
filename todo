@@ -1,0 +1,12 @@
+[ content ]
+	- about
+	- add content to project-subsites
+	- create more templates
+	- expand project-subsites with content
+	- add more projects
+[ ui ]
+	- darkmode
+	- lightmode: make color consistent
+	- redesign project divs in /projects/
+[ bugs ]
+[ misc ]

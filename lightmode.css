@@ -1,0 +1,23 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/solarized-light.min.css");
+
+:root {
+	/* - COLOR - */
+	/* main */
+	--text: #000000;
+
+	--background: #ffffff;
+
+	--header-border: #0080a0;
+	--header-text: #000000;
+	--header-text-focus: #0080a0;
+
+	--navigator-item-background: #ffffff;
+	--navigator-item-background-focus: #0080a033;
+
+	/* project */
+	--category-name-background: #f2f2f2;
+	--category-name-background-focus: #00808066;
+
+	--project-background: #0080a00a;
+	--project-background-focus: #0080a033;
+}

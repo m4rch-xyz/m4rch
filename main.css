@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Roboto;
+	color: var(--text);
+}
+
+a {
+	text-decoration: none;
+	color: var(--text);
+}
+
+#header {
+	display: block;
+
+	width: 90%;
+	margin: 7px 5% 0 5%;
+	padding: 5px 0 5px 0;
+
+	font-size: 36px;
+	font-family: "Russo One";
+	text-align: center;
+	color: (--header-text);
+	
+	border-bottom: 3px solid var(--header-border);
+}
+
+#header:hover {
+	color: var(--header-text-focus);
+}
+
+#navigator {
+	display: grid;
+
+	height: 33px;
+	margin: 0 5%;
+	width: 90%;
+
+	box-sizing: border-box;
+
+	font-size: 20px;
+	
+	grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+}
+
+.navigator-item {
+	padding: 4px 0;
+
+	text-align: center;
+
+	background: var(--navigator-item-background);
+	
+	cursor: pointer;
+}
+
+.navigator-item:hover {
+	background: var(--navigator-item-background-focus);
+}

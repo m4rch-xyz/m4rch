@@ -1,0 +1,10 @@
+( v 2021-02-08 )
+[ content ]
+	- added projects subsite
+	- added categories to projects
+	- added templates for discord-create-bot, telegram-simple-quizbot, docs, openrgb-sdk
+[ ui ]
+	- initated lightmode
+	- added javascript to projects: categories
+[ fixes ]
+[ misc ]

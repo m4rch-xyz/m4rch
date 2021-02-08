@@ -1,0 +1,46 @@
+
+#projects {
+	display: grid;
+	gap: 10px;
+	
+	margin: 40px 10%;
+}
+
+.category-name {
+	height: 24px;
+	margin-bottom: 10px;
+	padding: 25px 0;
+
+	font-size: 20px;
+	text-align: center;
+
+	background: var(--category-name-background);
+
+	cursor: pointer;
+}
+
+.category-name:hover {
+	background: var(--category-name-background-focus);
+}
+
+.project-list {
+	display: none;
+	padding: 10px 5%;
+}
+
+.project {
+	display: block;
+
+	padding: 13px 0;
+
+	font-size: 17px;
+	text-align: center;
+
+	background: var(--project-background);
+
+	cursor: pointer;
+}
+
+.project:hover {
+	background: var(--project-background-focus);
+}
