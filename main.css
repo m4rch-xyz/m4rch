@@ -13,6 +13,29 @@ a {
 	color: var(--text);
 }
 
+body {
+	background: var(--background);
+}
+
+@media only screen and (max-width: 800px) {
+	/* cookies */
+	.cookie-name {
+		padding-left: 0 !important;
+		width: 100% !important;
+		text-align: center;
+	}
+
+	.cookie-delete {
+		margin: 0 25% !important;
+		width: 50% !important;
+	}
+
+	.cookie {
+		height: 100px !important;
+		margin-bottom: 20px !important;
+	}
+}
+
 #header {
 	display: block;
 
@@ -23,9 +46,9 @@ a {
 	font-size: 36px;
 	font-family: "Russo One";
 	text-align: center;
-	color: (--header-text);
+	color: var(--text);
 	
-	border-bottom: 3px solid var(--header-border);
+	border-bottom: 3px solid var(--header-footer-border);
 }
 
 #header:hover {
@@ -51,11 +74,129 @@ a {
 
 	text-align: center;
 
-	background: var(--navigator-item-background);
+	background: var(--background);
 	
 	cursor: pointer;
 }
 
 .navigator-item:hover {
-	background: var(--navigator-item-background-focus);
+	background: var(--navigator-footer-item-background-focus);
+}
+
+#footer {
+	position: fixed;
+	left: 5%;
+	right: 5%;
+	bottom: 0;
+
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+
+	width: 90%;
+	height: 40px;
+
+	border-top: 3px solid var(--header-footer-border);
+	box-sizing: border-box;
+}
+
+#footer a {
+	display: block;
+
+	padding: 4px 0;
+	height: 33px;
+
+	box-sizing: border-box;
+
+	font-size: 20px;
+
+	background: var(--background);
+
+	text-align: center;
+}
+
+#footer a:hover {
+	background: var(--navigator-footer-item-background-focus);
+}
+
+#lightdark {
+	position: fixed;
+	margin: 7px 14px 0 0;
+	right: 0;
+	top: 0;
+
+	height: 50px;
+	width: 50px;
+
+	border-radius: 100%;
+
+	box-shadow: inset 25px 0 #21252b;
+
+	cursor: pointer;
+}
+
+#lightdark:hover {
+	box-shadow: inset 25px 0 #006080;
+}
+
+/* - COOKIES - */
+
+#cookies {
+	position: absolute;
+
+	width: 80%;
+	margin: 40px 10%;
+	bottom: 50px;
+	top: 96px;
+	
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+#cookies::-webkit-scrollbar {
+	width: 0;
+}
+
+.cookie {
+	width: 100%;
+	height: 50px;
+	margin-bottom: 5px;
+}
+
+.cookie:last-child {
+	margin: 0;
+}
+
+.cookie > * {
+	height: 50px;
+	box-sizing: border-box;
+	padding: 14px 0;
+	font-size: 18px;
+}
+
+.cookie-name {
+	float: left;
+
+	width: 80%;
+	padding-left: 22px;
+
+	background: var(--cookie-name-background);
+
+	white-space: pre;
+}
+
+.cookie-delete {
+	width: 20%;
+	float: right;
+	text-align: center;
+	background: var(--cookie-delete);
+	cursor: pointer;
+}
+
+.cookie-value {
+	display: inline;
+	color: var(--cookie-value);
+}
+
+.cookie-delete:hover {
+	background: var(--cookie-delete-focus);
 }

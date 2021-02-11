@@ -20,7 +20,7 @@
 }
 
 .category-name:hover {
-	background: var(--category-name-background-focus);
+	background: var(--category-name-background-focus) !important;
 }
 
 .project-list {

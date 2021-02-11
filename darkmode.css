@@ -1,0 +1,7 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/solarized-light.min.css");
+
+:root {
+	/* - COLOR - */
+	/* - main - */
+	--text: teal;
+}

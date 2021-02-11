@@ -1,12 +1,15 @@
 [ content ]
 	- about
-	- add content to project-subsites
+	- add content to project-sites
 	- create more templates
 	- expand project-subsites with content
 	- add more projects
+	- main
 [ ui ]
 	- darkmode
 	- lightmode: make color consistent
 	- redesign project divs in /projects/
+	- recolor project divs in /projects/
+	- make cookie-site more beautiful
 [ bugs ]
 [ misc ]

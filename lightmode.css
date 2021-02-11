@@ -2,22 +2,29 @@
 
 :root {
 	/* - COLOR - */
-	/* main */
+	/* - main - */
 	--text: #000000;
 
 	--background: #ffffff;
 
-	--header-border: #0080a0;
-	--header-text: #000000;
 	--header-text-focus: #0080a0;
+	--header-footer-border: #0080a0;
 
-	--navigator-item-background: #ffffff;
-	--navigator-item-background-focus: #0080a033;
+	--navigator-footer-item-background: #ffffff;
+	--navigator-footer-item-background-focus: #0080a033;
 
-	/* project */
+	/* - project - */
 	--category-name-background: #f2f2f2;
-	--category-name-background-focus: #00808066;
+	--category-name-background-selected: #0080805f;
+	--category-name-background-focus: #0080a099;
 
-	--project-background: #0080a00a;
-	--project-background-focus: #0080a033;
+	--project-background: #0080a00f;
+	--project-background-focus: #0080a066;
+
+	/* - cookies - */
+	--cookie-name-background: #f7f7f7;
+	--cookie-value: #0080b0;
+
+	--cookie-delete: #ff00001a;
+	--cookie-delete-focus: #ff000066;
 }

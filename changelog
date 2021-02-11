@@ -1,10 +1,15 @@
-( v 2021-02-08 )
+( v 2021-02-11 )
 [ content ]
-	- added projects subsite
-	- added categories to projects
-	- added templates for discord-create-bot, telegram-simple-quizbot, docs, openrgb-sdk
+	- link to website on /projects/html/docs/
+	- added electron and photon to /projects/
+	- added cookies
 [ ui ]
-	- initated lightmode
-	- added javascript to projects: categories
+	- category-name-background-selected added
+	- slight color adjustments at /projects/
+	- initated darkmode functionality
+	- added lightdark button
+	- added footer
 [ fixes ]
 [ misc ]
+	- renamed css variables for inclusivity
+	- changed jquery path
