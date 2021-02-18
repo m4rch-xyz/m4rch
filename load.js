@@ -9,7 +9,7 @@ window.onload = function () {
 
 	/* - PROJECT - */
 	$(".project, .category-name").css("transition", "background 0.6s")
-	
+
 	$(".category-name").off().on("click", el => toggleProjectCategory(el.target))
 
 
@@ -19,4 +19,5 @@ window.onload = function () {
 
 	/* - COOKIES - */
 	if (window.location.pathname == "/cookies/") loadActiveCookies()
+
 }

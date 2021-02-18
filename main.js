@@ -7,8 +7,8 @@ function toggleProjectCategory (el) {
 
 function toggleLightDark () {
 	let lightdark = $.cookie.get("lightdark") == "darkmode" ? "lightmode" : "darkmode"
-	$.cookie.set("lightdark", lightdark)
-	
+	$.cookie.set("lightdark", lightdark, { path: "/", expires: 365 })
+
 	$("#theme").attr("href", `${window.origin}/${lightdark}.css`)
 	if (window.location.pathname == "/cookies/") setTimeout(loadActiveCookies, 200)
 }

@@ -1,15 +1,9 @@
-( v 2021-02-11 )
+( v 2021-02-18 )
 [ content ]
-	- link to website on /projects/html/docs/
-	- added electron and photon to /projects/
-	- added cookies
+	- added no-cookie information to /cookies/
 [ ui ]
-	- category-name-background-selected added
-	- slight color adjustments at /projects/
-	- initated darkmode functionality
-	- added lightdark button
-	- added footer
 [ fixes ]
+	- added missing footers
 [ misc ]
-	- renamed css variables for inclusivity
-	- changed jquery path
+	- moved 2 colors into lightmode.css
+	- minor restructuring in css-files

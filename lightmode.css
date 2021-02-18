@@ -1,9 +1,10 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/solarized-light.min.css");
 
 :root {
+
 	/* - COLOR - */
 	/* - main - */
-	--text: #000000;
+	--text-color: #000000;
 
 	--background: #ffffff;
 
@@ -21,10 +22,17 @@
 	--project-background: #0080a00f;
 	--project-background-focus: #0080a066;
 
+	/* - lightdark - */
+	--lightdark: #21252b;
+	--lightdark-focus: #006080;
+
 	/* - cookies - */
 	--cookie-name-background: #f7f7f7;
 	--cookie-value: #0080b0;
 
 	--cookie-delete: #ff00001a;
 	--cookie-delete-focus: #ff000066;
+
+	--no-cookie-background: #00000020;
+
 }
